@@ -7,21 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		272021401D07AF6900753734 /* 按一下ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2720213F1D07AF6900753734 /* 按一下ViewController.swift */; };
 		27381CD91D0176B5000DE756 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27381CD81D0176B5000DE756 /* AppDelegate.swift */; };
-		27381CDB1D0176B5000DE756 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27381CDA1D0176B5000DE756 /* ViewController.swift */; };
 		27381CDE1D0176B5000DE756 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27381CDC1D0176B5000DE756 /* Main.storyboard */; };
 		27381CE01D0176B5000DE756 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27381CDF1D0176B5000DE756 /* Assets.xcassets */; };
 		27381CE31D0176B5000DE756 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27381CE11D0176B5000DE756 /* LaunchScreen.storyboard */; };
+		27381CEC1D017803000DE756 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27381CEB1D017803000DE756 /* TableViewController.swift */; };
+		2752A28C1D07F20D00078AB2 /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2752A28B1D07F20D00078AB2 /* Answer.swift */; };
+		2759C5D41D018642001956DF /* FacebookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2759C5D21D018642001956DF /* FacebookTableViewCell.swift */; };
+		2759C5D51D018642001956DF /* FacebookTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2759C5D31D018642001956DF /* FacebookTableViewCell.xib */; };
+		275C81871D03155500C5F05C /* Picture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275C81861D03155500C5F05C /* Picture.swift */; };
+		279D5B5F1D050E9B00E90395 /* BigImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279D5B5E1D050E9B00E90395 /* BigImageViewController.swift */; };
+		27CD66441D041974002B1F7C /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CD66431D041974002B1F7C /* MyCell.swift */; };
+		27CD66461D042D1A002B1F7C /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CD66451D042D1A002B1F7C /* Message.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2720213F1D07AF6900753734 /* 按一下ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "按一下ViewController.swift"; path = "TryFacebook/按一下ViewController.swift"; sourceTree = "<group>"; };
 		27381CD51D0176B5000DE756 /* TryFacebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TryFacebook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27381CD81D0176B5000DE756 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		27381CDA1D0176B5000DE756 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		27381CDD1D0176B5000DE756 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		27381CDF1D0176B5000DE756 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27381CE21D0176B5000DE756 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27381CE41D0176B5000DE756 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27381CEB1D017803000DE756 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		2752A28B1D07F20D00078AB2 /* Answer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Answer.swift; path = ../Answer.swift; sourceTree = "<group>"; };
+		2759C5D21D018642001956DF /* FacebookTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FacebookTableViewCell.swift; path = TryFacebook/FacebookTableViewCell.swift; sourceTree = "<group>"; };
+		2759C5D31D018642001956DF /* FacebookTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FacebookTableViewCell.xib; path = TryFacebook/FacebookTableViewCell.xib; sourceTree = "<group>"; };
+		275C81861D03155500C5F05C /* Picture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Picture.swift; sourceTree = "<group>"; };
+		279D5B5E1D050E9B00E90395 /* BigImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BigImageViewController.swift; sourceTree = "<group>"; };
+		27CD66431D041974002B1F7C /* MyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyCell.swift; path = TryFacebook/MyCell.swift; sourceTree = "<group>"; };
+		27CD66451D042D1A002B1F7C /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Message.swift; path = ../Message.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +55,9 @@
 			isa = PBXGroup;
 			children = (
 				27381CD71D0176B5000DE756 /* TryFacebook */,
+				27381CEA1D0176C9000DE756 /* ViewController */,
+				2752A28D1D07F23E00078AB2 /* 素材 */,
+				2759C5D61D01864A001956DF /* cell */,
 				27381CD61D0176B5000DE756 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,14 +73,44 @@
 		27381CD71D0176B5000DE756 /* TryFacebook */ = {
 			isa = PBXGroup;
 			children = (
-				27381CD81D0176B5000DE756 /* AppDelegate.swift */,
-				27381CDA1D0176B5000DE756 /* ViewController.swift */,
 				27381CDC1D0176B5000DE756 /* Main.storyboard */,
+				27381CD81D0176B5000DE756 /* AppDelegate.swift */,
 				27381CDF1D0176B5000DE756 /* Assets.xcassets */,
 				27381CE11D0176B5000DE756 /* LaunchScreen.storyboard */,
 				27381CE41D0176B5000DE756 /* Info.plist */,
 			);
 			path = TryFacebook;
+			sourceTree = "<group>";
+		};
+		27381CEA1D0176C9000DE756 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2720213F1D07AF6900753734 /* 按一下ViewController.swift */,
+				27381CEB1D017803000DE756 /* TableViewController.swift */,
+				279D5B5E1D050E9B00E90395 /* BigImageViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		2752A28D1D07F23E00078AB2 /* 素材 */ = {
+			isa = PBXGroup;
+			children = (
+				2752A28B1D07F20D00078AB2 /* Answer.swift */,
+				275C81861D03155500C5F05C /* Picture.swift */,
+				27CD66451D042D1A002B1F7C /* Message.swift */,
+			);
+			name = "素材";
+			path = TryFacebook;
+			sourceTree = "<group>";
+		};
+		2759C5D61D01864A001956DF /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				2759C5D21D018642001956DF /* FacebookTableViewCell.swift */,
+				27CD66431D041974002B1F7C /* MyCell.swift */,
+				2759C5D31D018642001956DF /* FacebookTableViewCell.xib */,
+			);
+			name = cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -90,6 +139,9 @@
 		27381CCD1D0176B5000DE756 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					"go back",
+				);
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = Alphacamp;
@@ -125,6 +177,7 @@
 				27381CE31D0176B5000DE756 /* LaunchScreen.storyboard in Resources */,
 				27381CE01D0176B5000DE756 /* Assets.xcassets in Resources */,
 				27381CDE1D0176B5000DE756 /* Main.storyboard in Resources */,
+				2759C5D51D018642001956DF /* FacebookTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +188,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27381CDB1D0176B5000DE756 /* ViewController.swift in Sources */,
+				279D5B5F1D050E9B00E90395 /* BigImageViewController.swift in Sources */,
+				27381CEC1D017803000DE756 /* TableViewController.swift in Sources */,
+				27CD66441D041974002B1F7C /* MyCell.swift in Sources */,
+				275C81871D03155500C5F05C /* Picture.swift in Sources */,
+				27CD66461D042D1A002B1F7C /* Message.swift in Sources */,
+				272021401D07AF6900753734 /* 按一下ViewController.swift in Sources */,
 				27381CD91D0176B5000DE756 /* AppDelegate.swift in Sources */,
+				2752A28C1D07F20D00078AB2 /* Answer.swift in Sources */,
+				2759C5D41D018642001956DF /* FacebookTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +346,7 @@
 				27381CE91D0176B5000DE756 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
